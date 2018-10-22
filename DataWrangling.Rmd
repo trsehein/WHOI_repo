@@ -60,4 +60,22 @@ gap_cambodia2
 gap_cambodia_new <- gapminder %>% filter(country == "Cambodia") %>% select(-continent, -lifeExp)
 gap_cambodia_new
 ```
+##Mutate
+```{r}
+#adds new variables
+gapminder %>% 
+  mutate(index = 1:nrow(gapminder))
+
+gapminder %>%
+  mutate(gdp = pop*gdpPercap)
+```
+
+##Challenge
+```{r}
+egy_viet <- filter(gapminder, country %in% c("Egypt", "Vietnam"))
+egy_viet
+mutate(egy_viet,index = 1:nrow(egy_viet))
+summary(egy_viet)
+max(egy_viet$gdpPercap)
+```
 
