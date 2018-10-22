@@ -5,26 +5,59 @@ date: "10/22/2018"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+library(tidyverse)
+gapminder <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/gapminder.csv') #read in file from Github
+
+#inspect the data
+gapminder #looks at all data
+```
+##Summary Stats
+
+```{r}
+summary(gapminder)
+install.packages("skimr")
+skimr::skim(gapminder)
+
+names(gapminder) #column names
+dim(gapminder) #dimensions
+ncol(gapminder) #number of columns
+nrow(gapminder) #number of rows
 ```
 
-## R Markdown
+##Dplyr
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+filter(gapminder, lifeExp < 29)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+filter(gapminder, country == "Mexico")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+filter(gapminder, country %in% c("Mexico", "Peru"))
+```
+
+```{r}
+filter(gapminder, country == "Mexico", year == 2002)
+```
+
+```{r}
+n<- filter(gapminder, country== "Sweden")
+n
+summary(n)
+```
+
+```{r}
+gap_cambodia <- filter(gapminder, country == "Cambodia")
+gap_cambodia
+gap_cambodia2 <- select(gap_cambodia, -continent, -lifeExp)
+gap_cambodia2
+```
+##simplify select/filter
+```{r}
+gap_cambodia_new <- gapminder %>% filter(country == "Cambodia") %>% select(-continent, -lifeExp)
+gap_cambodia_new
+```
+
