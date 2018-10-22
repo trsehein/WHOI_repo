@@ -97,3 +97,13 @@ ggplot(visit_16, aes(x=state, y=visitors, fill=park_name)) +
   geom_bar(stat="identity")
 ```
 
+##Save a plot
+```{r}
+plot<- ggplot(visit_16, aes(x=state, y=visitors, fill=park_name)) +
+  geom_bar(stat="identity")
+
+plot
+
+ggsave(filename= "plot.png", plot)
+```
+
