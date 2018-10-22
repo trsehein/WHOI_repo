@@ -1,0 +1,9 @@
+---
+title: "ggplot2"
+author: "TRS"
+date: "10/22/2018"
+output: html_document
+---
+# Learning ggplot2
+
+We're learning ggplot2 It's going to be amazing.
