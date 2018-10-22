@@ -6,4 +6,94 @@ output: html_document
 ---
 # Learning ggplot2
 
-We're learning ggplot2 It's going to be amazing.
+##Load Packages
+
+```{r packages}
+#install.packages("tidyverse")
+
+library(tidyverse)
+```
+
+##Bring in Data
+```{r}
+#National Parks in California
+ca <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/ca.csv") 
+
+#Acadia National Park
+acadia <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/acadia.csv")
+
+#Southeast US National Parks
+se <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/se.csv")
+
+#2016 Visitation for all Pacific West National Parks
+visit_16 <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/visit_16.csv")
+
+#All Nationally designated sites in Massachusetts
+mass <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/mass.csv")
+```
+
+Start with California dataset ('ca')
+
+Plot visitation to all CA National Parks over time
+
+```{r}
+ggplot(data = ca) + 
+  geom_point(aes(x=year, y=visitors))
+```
+
+```{r}
+ggplot(data = ca) + 
+  geom_point(aes(x=year, y=visitors, color=park_name))
+
+```
+
+```{r}
+ggplot(data = ca) + 
+  geom_point(aes(x=year, y=visitors, color=park_name)) +
+  labs(x="Year",
+       y= "Visitation",
+       title="California National Park Visitation") +
+  theme_bw() #this uses a different theme +
+  theme(legend.title = element_blank()) #this changes marker in legend
+```
+##Southeast National Parks exercise
+
+```{r}
+ggplot(data = se) + 
+  geom_point(aes(x=year, y=visitors, color=park_name)) +
+  labs(x="Year",
+       y="Visitation",
+       title="Visitors to Southeastern National Parks") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+library(RColorBrewer)
+display.brewer.all()
+```
+##Faceting plots
+
+```{r}
+ggplot(data=se) +
+  geom_point(aes(x=year, y=visitors, color = park_name)) +
+  facet_wrap(~ state, scales = "free")
+```
+
+##Multiple geoms
+
+```{r}
+ggplot(acadia, (aes(x=year, y=visitors))) +
+  geom_point() +
+  geom_line() +
+  geom_smooth() +
+  theme_fivethirtyeight()
+```
+##Bar charts
+
+```{r}
+ggplot(visit_16, aes(x=state, y=visitors, fill=park_name)) +
+  geom_bar(stat="identity")
+```
+
