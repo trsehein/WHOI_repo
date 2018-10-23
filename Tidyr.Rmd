@@ -1,0 +1,55 @@
+---
+title: "tidy"
+author: "TRS"
+date: "10/23/2018"
+output: html_document
+---
+
+##Read in Data
+```{r}
+gap_wide <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/gapminder_wide.csv')
+```
+
+##tidyr::gather()
+```{r}
+gap_long <- gap_wide %>%
+  gather(key = obstype_year,
+         value = obs_values, -continent, -country)
+```
+
+##tidyr::separate()
+```{r}
+gap_long2 <- gap_wide %>%
+  gather(key = obstype_year,
+         value = obs_values, -continent, -country) %>%
+  separate(obstype_year,
+           into = c("obs_type", "year"),
+           sep = "_",
+           convert = TRUE)
+```
+
+##plot long data
+```{r}
+canada_df <- gap_long2 %>%
+  filter(country == "Canada",
+         obs_type == "lifeExp")
+ggplot(data = canada_df, aes(x= year, y=obs_values))+
+  geom_line()
+```
+
+##Challenge
+
+Using gap_long, calculate and plot the the mean life expectancy for each continent over time from 1982 to 2007. Give your plot a title and assign x and y labels. Hint: use the dplyr::group_by() and dplyr::summarize() functions.
+
+```{r}
+lifeExp_con <- gap_long2 %>%
+  filter(obs_type == "lifeExp", year >= 1982) %>%
+  group_by(continent, year) %>%
+  summarize(mean_life = mean(obs_values)) %>%
+  ungroup()
+
+ggplot(data = lifeExp_con, aes(x= year, y=mean_life, color= continent))+
+  geom_line() +
+  theme_bw()
+```
+
