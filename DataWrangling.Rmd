@@ -79,3 +79,39 @@ summary(egy_viet)
 max(egy_viet$gdpPercap)
 ```
 
+##Challenge answer
+```{r}
+gapminder %>%
+  filter(country %in% c("Egypt", "Vietnam")) %>%
+  mutate(gdp = pop * gdpPercap,
+         max_gdp = max(gdp))
+```
+
+##Group by
+
+```{r}
+##with mutate()
+gap_group <- gapminder %>%
+  group_by(country) %>%
+  mutate(gdp = pop * gdpPercap,
+         max_gdp = max(gdp)) %>%
+  ungroup()
+
+##with summarize()
+gap_summarize <- gapminder %>%
+  group_by(country) %>%
+  mutate(gdp = pop * gdpPercap) %>%
+  summarize(max_gdp = max(gdp)) %>%
+  ungroup()
+```
+
+##arrange, arranges columns
+```{r}
+gap_arrange <- gapminder %>%
+  group_by(country) %>%
+  mutate(gdp = pop * gdpPercap) %>%
+  summarize(max_gdp = max(gdp)) %>%
+  ungroup() %>%
+  arrange(desc(max_gdp))
+```
+
