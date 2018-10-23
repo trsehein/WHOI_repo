@@ -115,3 +115,26 @@ gap_arrange <- gapminder %>%
   arrange(desc(max_gdp))
 ```
 
+##Joining
+```{r}
+co2 <- read_csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/co2.csv")
+
+##explore
+co2 %>% head()
+co2 %>% dim()
+
+##create a new gapminder variable w/ only 2007 data
+gap_2007 <- gapminder %>%
+  filter(year == 2007)
+
+##left join w/ co2
+lj <- left_join(gap_2007, co2, by = "country")
+##another way to write this
+lj2 <- gap_2007 %>%
+  left_join(co2, by = "country")
+
+##right join
+rj <- gap_2007 %>%
+  right_join(co2)
+```
+
