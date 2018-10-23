@@ -53,3 +53,19 @@ ggplot(data = lifeExp_con, aes(x= year, y=mean_life, color= continent))+
   theme_bw()
 ```
 
+##spread()
+```{r}
+gap_normal <- gap_long2 %>% 
+  spread(obs_type, obs_values)
+```
+
+##Challenge
+
+Recreate gap_wide
+
+```{r}
+gap_new <- gap_long2 %>%
+  unite(col = var_names, obs_type, year, sep = "_") %>%
+  spread(var_names, obs_values)
+```
+
