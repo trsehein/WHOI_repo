@@ -791,5 +791,3 @@ Eukaryota; Stramenopiles; Stramenopiles_X; Stramenopiles_X-Group-6; Stramenopile
 Eukaryota; Stramenopiles; Stramenopiles_X; Stramenopiles_X-Group-7; Stramenopiles_X-Group-7_X; Stramenopiles_X-Group-7_XX; Stramenopiles_X-Group-7_XXX; Stramenopiles_X-Group-7_XXX_sp.	0	0	0	0	0	0	0	7	6	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
 Eukaryota; Stramenopiles; Stramenopiles_X; Stramenopiles_XX; Stramenopiles_XXX; Stramenopiles_XXXX; Stramenopiles_XXXXX; Stramenopiles_XXXXX_sp.	135	18	17	323	17	10	33	12	63	42	10	13	17	28	152	9	29	94	66	5	53	18	40	14	11	23
 No blast hit	15373	10523	28338	27915	15730	16784	34914	37840	44719	30085	8682	7583	32748	18536	42447	9833	42688	42016	41495	12670	56550	48134	46120	31624	44288	66239
-																										
-Total	44221	26284	63761	72660	36047	39386	80435	54802	145822	87915	21821	33570	81076	39549	90829	27912	65674	95904	133030	24712	124528	106240	106791	60696	101488	190025
