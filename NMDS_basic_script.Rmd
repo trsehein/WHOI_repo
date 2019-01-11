@@ -1,0 +1,55 @@
+---
+title: "NMDS_basic_script"
+author: "TRS"
+date: "1/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## Set the working directory to wherever you've stored your OTU and Metadata table
+```{r}
+setwd(./Desktop/)
+install.packages("vegan")
+library("vegan")
+```
+
+## Load OTU and Metadata tables, look at the tables in the environment tab to make sure they are in the right orientation and the row/column headers are not included as data
+```{r}
+inc_data_inc = read.table("IODP_OTUs.txt", header=T, row.names =1, sep ="\t")
+
+inc_features_inc= read.table("MetaData.txt", header=T, row.names=1, sep="\t")
+```
+
+## Normalize the data
+```{r}
+tdata_forhel<- t(inc_data_inc) ##this line flips the table using the transpose command
+data.hel<-decostand(tdata_forhel, method="hell") #this standardizes the data using the "hellinger" method
+##if you go to the function page online you can look at other standardization methods
+tdata <-t(data.hel) #this flips the table back to the original orientation
+```
+
+## Run the NMDS
+```{r}
+install.packages("MASS")
+library ("MASS")
+dist<-vegdist(data.hel, method="manhattan", na.rm=FALSE)
+fit<-isoMDS(dist, k=2)
+x <- fit$points[,1]
+y <- fit$points[,2]
+```
+
+## Plot the results
+```{r}
+cols = c('red', 'blue', 'green','darkorange', 'deepskyblue', 'purple', 'magenta','pink','cyan', 'black') ##brings in color palette
+shps = c(16,17) ## brings in different shapes
+plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", main="Nonmetric MDS", type="n")
+points(x,y, col = cols[inc_features_inc$treat], pch = shps[inc_features_inc$depth]) ##here, it is coloring the points by the treatment type and assigning the shape based on the depth from the environment table
+##you will need to adjust what it says after the $ based on your column header and how you want to display the information
+text(x, y, labels = row.names(data.hel), cex=0.8)
+```
+
