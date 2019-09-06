@@ -134,4 +134,3 @@ plot(within_seq_means,within_seq_vars,log='xy',
      main='Heteroskedastic Data',
      xlab='Mean # Counts',
      ylab='Var # Counts')
-transformed_counts<-DESeq2::varianceStabilizingTransformation(as.matrix(seq_counts))
