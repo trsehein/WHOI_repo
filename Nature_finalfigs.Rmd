@@ -1,0 +1,45 @@
+---
+title: "Script_for_Nature"
+author: "TRS"
+date: "10/31/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library("devtools")
+source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
+inc_data_inc = read.table("Nature_iTags.txt", header=T, row.names =1, sep ="\t")
+inc_features_inc= read.table("MetaData.txt", header=T, row.names=1, sep="\t")
+tdata_forhel<- t(inc_data_inc)
+data.hel<-decostand(tdata_forhel, method="pa")
+tdata <-t(data.hel)
+library ("MASS")
+dist<-vegdist(data.hel, method="jaccard", na.rm=FALSE)
+fit<-isoMDS(dist, k=2)
+x <- fit$points[,1]
+y <- fit$points[,2]
+plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", main="Nonmetric MDS", type="n")
+points(x,y)
+text(x, y, labels = row.names(data.hel), cex=0.8)
+ef <- envfit(fit, inc_features_inc, permu = 999)
+plot(ef, p.max = 0.05)
+
+library(ade4)
+d <- dist.binary(data.hel, method = 1, diag = FALSE, upper = FALSE)
+hc <- hclust(d)
+plot(hc)
+library("fpc")
+cpx <- clusterboot(data.hel,B=500,clustermethod=hclusttreeCBI, method = "ward.D2")
+par(mar=c(1,1,1,1))
+View(cpx)
+cpx$bootmean
+```
+
+
+
