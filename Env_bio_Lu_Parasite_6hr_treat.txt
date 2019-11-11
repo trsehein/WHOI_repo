@@ -1,0 +1,7 @@
+Sample	Treatment
+SRR3033489-counts.txt	Parasite
+SRR3033490-counts.txt	Parasite
+SRR3033491-counts.txt	Parasite
+SRR3033483-counts.txt	Control
+SRR3033487-counts.txt	Control
+SRR3033488-counts.txt	Control
