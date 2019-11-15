@@ -1,0 +1,7 @@
+Sample	Treatment
+SRR3033484-counts.txt	Lysed_host
+SRR3033485-counts.txt	Lysed_host
+SRR3033486-counts.txt	Lysed_host
+SRR3033477-counts.txt	Control
+SRR3033478-counts.txt	Control
+SRR3033479-counts.txt	Control

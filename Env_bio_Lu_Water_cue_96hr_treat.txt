@@ -1,7 +1,0 @@
-Sample	Treatment
-SRR3033480-counts.txt	Water_cue
-SRR3033481-counts.txt	Water_cue
-SRR3033482-counts.txt	Water_cue
-SRR3033477-counts.txt	Control
-SRR3033478-counts.txt	Control
-SRR3033479-counts.txt	Control

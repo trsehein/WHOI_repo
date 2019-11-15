@@ -1,0 +1,236 @@
+	2	19	26	31	42	51	62	68	71	81	84
+unknown	0	0	0	0.904445041	0	2.226996646	0	2.668881438	0	0	0
+(R)-citramalate synthase	0	0	0	0	0	0	0	0	0.918187661	0	0
+1-pyrroline-5-carboxylate dehydrogenase	0	0	0	2.253696538	0	0	1.24221832	0	0.402089351	0	0
+"1,2-phenylacetyl-CoA epoxidase"	0	0	0	0	0	2.216487874	0	0	0	0	0.623869268
+2-amino-4-deoxychorismate synthase	0	0	0	0	0	0	0	1.154484837	0	2.208094535	0
+2-amino-4-deoxychorismate synthase (PhzE)	0	0	0	0	0	0	0	1.154484837	0	2.208094535	0
+2-keto-4-pentenoate hydratase	0	0	0	0.428458774	0	0	0	0	0.685741739	0	0
+2-methylfumaryl-CoA isomerase	0	0	0	0	0	0.937668314	0	2.343178091	0	1.421603927	0
+2-oxoglutarate dehydrogenase	0	0	0	0	0	0	0	1.902633738	0	0	0.530455844
+2-oxoglutarate dehydrogenase E1 component	0	0	0	0	0	0	0	1.902633738	0	0	0.530455844
+2-oxoisovalerate dehydrogenase E1 component alpha subunit	0	0	0	0	0	0	1.596937801	2.786310517	0	3.248197962	0.685741739
+"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase"	0	0	0	0	0	2.056004854	0.52530401	0	0	0	0
+"2,3-bisphosphoglycerate-independent phosphoglycerate mutase "	0	0	0	0.504334912	0	0	0	0	0	0	1.626863669
+3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase	0	0	0	0	2.268577972	0	0	0	0.160768562	0	0
+"3-carboxy-cis,cis-muconate cycloisomerase"	0	0	0	0	0	0	0	0	1.862572608	0	0
+3-dehydroquinate synthase	0	0	1.302460808	0	0	0	0	0	0	0	0
+3-dehydroshikimate dehydratase	0	0	0	0	0	0	0	2.19669559	0	0	0
+3-deoxy-7-phosphoheptulonate synthase	1.647881536	0	1.088029718	0	0.361538971	0	0	0	0	0	0
+3-hydroxy acid dehydrogenase	0	0	0	0	0	0	0	0	0.957128198	0	0
+3-hydroxyacyl-CoA dehydrogenase	0	0	0	0	0	0	0	0	2.700064783	1.441899277	0.74530906
+3-hydroxybutyryl-CoA dehydrogenase	0	0	0	0	0	0	0	0	0	1.196259111	0
+3-hydroxypropionyl-CoA dehydratase	1.934175135	0	0	0	0	0	0	1.495641453	0	0.202760687	0.278524965
+3-isopropylmalate dehydratase 	0	0	0	0	0	0	0	3.226191709	1.314309722	0.930031615	0
+3-isopropylmalate dehydrogenase 	0	0	0	0	0	0	0.740362689	0	0	0	0.498861689
+3-ketoacyl-CoA thiolase	1.67235651	0	0	0	0	0	0	1.588316535	0	1.307431852	1.313656347
+3-oxoacid CoA-transferase	0	0	0	0	0	0	0	0	0	1.551071655	0
+3-oxoadipate CoA-transferase alpha subunit 	0	0	0	0	0	0	1.089198367	0	0	0	0
+3-oxoadipyl-CoA thiolase	1.657705851	0	0	0.763877031	0	0	0	0	0	0	0
+3-phosphoshikimate 1-carboxyvinyltransferase	0	0	0	0	0	0	0	1.666199631	1.334031315	0	0
+"3,4-dehydroadipyl-CoA semialdehyde dehydrogenase"	0	0	0	0	0	0	0	0	0	0	1.110791661
+"3,4-dihydroxyphenylacetate 2,3-dioxygenase"	0	0	0	0	0	0	0	0	0	0.508260306	0
+4-carboxymuconolactone decarboxylase	0	0	0	0	0	0	0	0	0	2.071985048	0
+"4-hydroxy-2-oxo-heptane-1,7-dioate aldolase"	0	0	0	0	0	0	0	2.287960644	0	0	1.586812269
+4-hydroxy-4-methyl-2-oxoglutarate aldolase	0	0	0	0	0	0	0	3.025377149	0	0	0
+4-hydroxyphenylpyruvate dioxygenase	0	0	0	0	0	1.070000904	0	0	0	0	2.109180177
+4-oxalmesaconate hydratase	0.35679046	0	0	0.848004271	0	0	0.684486292	2.59574306	0	0	0.972110228
+4-oxalocrotonate tautomerase	0	0	1.778729924	0	0	0	0	0	0	0	0
+5-methylphenazine-1-carboxylate 1-monooxygenase (PhzS)	0	0	0	1.974018629	0	0	0	0	1.161607547	0	0
+acetaldehyde dehydrogenase	0	0	0.70018433	0	0	0	0	0	0	0	1.184151776
+acetolactate synthase I/II/III large subunit	0	0	0	0	0	0	1.104282207	0	0	0	1.990254474
+Acetyl-CoA C-acetyltransferase	1.67235651	0	2.181974999	0	0.937066312	0	0	1.679137058	0	1.307431852	1.547306941
+Acetyl-CoA carboxylase	0	2.85088996	1.267124775	0	0	0	0	2.546926203	0	1.277242373	0
+acetyl-CoA carboxylase biotin carboxyl carrier protein	0	0	0	0	0	1.10591874	0	0	1.639864838	0	0
+Acetyl-CoA synthetase	0	0	1.45946788	0	0	0	0	1.454738178	1.990667338	0	0
+aconitate hydratase(can be in TCA and rTCA)	0.671080233	0	1.795768824	2.332236415	2.287113926	1.664491544	1.667826379	1.42499591	1.842584279	2.334759258	2.454997217
+AcrB/AcrD/AcrF family protein	0	0	0	1.033101937	0	0	0	0	0	1.483644343	1.993325989
+acyl-CoA dehydrogenase	1.519644265	0	0	0	0	0	0	1.09867833	0	2.770884398	0.659155281
+acyl-homoserine lactone acylase	0	0	0	0.489536629	0	0.599992178	3.148673284	1.586823515	0	1.260524536	0
+Adenylylsulfate reductase (apr)	0	0	0	0	0	0	0	0	0	0	1.837657869
+Adenylysulfate kinase(cysC)	0	0	0	0	0	0	2.422100449	1.058729621	0	0	0
+alanine racemase	0.959518377	0	0	0	0	0	0	0	0	0	0
+Alcohol dehydrogenase(adh)	1.881093508	0	2.986666058	3.583733772	1.469880899	0	2.619071407	2.391462649	0	1.836438056	1.825276783
+aldehyde dehydrogenase	0	0	0	0	0.474798819	0	0	0.583765368	0	0	0
+Aldehyde dehydrogenase (dhaS)	0	0	0	0	0.474798819	0	0	0.583765368	0	0	0
+alkanesulfonate monooxygenase	0	0	0	0	0	0	0	1.993171605	0.932930143	0	0
+alkyl hydroperoxide reductase subunit C	1.673232931	0	0	1.760897233	0.516270883	0	0	2.418463707	0	1.547479334	0.188365926
+amidase	0	0	0.38039216	1.193736633	0	0	0	0	0	0	0
+"anthranilate 1,2-dioxygenase reductase component"	0	0	0	0	0	0	0	2.043833654	0	0	0
+anthranilate 3-monooxygenase oxygenase component	0	0	0	0	0	1.367001631	0	0	0	0	0
+anthranilate 3-monooxygenase oxygenase component/4-hydroxyphenylacetate 3-monooxygenase reductase component	0	0	0	0.757623746	0	1.367001631	0	0	0	0	0.687261346
+anthranilate phosphoribosyltransferase	0	0	0	1.239624765	0	0	0	0	0	0	0
+anthranilate synthase	0	0	0	1.975174373	1.135482491	0	1.598133646	0	0	1.774414767	1.461933504
+aralkylamine dehydrogenase light chain	0	0	0	0	1.722740838	0	0	0	0	0	0
+arylformamidase	3.720297594	0	0	0	0	0	0	1.408663874	0	0	0
+aspartate 4-decarboxylase	0	0	1.369419965	0	1.265148139	0	0	0	0	0	0
+aspartate aminotransferase	0	0	0	0	0	0.912009376	0	0	0	0	0
+aspartate kinase	0	0	1.044422156	0	0	0	0	0.871748019	0.594944737	0	0
+aspartate-semialdehyde dehydrogenase	0	0	0	0	0	0	0	0.583765368	0	0	0
+ATP citrate lyase	0	0	0.472024698	0	0	0	0	0	0	0	0
+bacitracin synthase	0	0	1.010299957	0	1.427307551	2.643004332	0	0.781180721	0	1.995696606	2.383693316
+"benzoate 1,2-dioxygenase subunit alpha"	0	0	0	0	0	0	0	0	0	0.858115932	0
+benzoate membrane transporters	0	0	0	0	0	0	0	0	0	1.272398632	0.946255707
+beta-alanine-pyruvate transaminase	0.456062224	0	0	0	0	0	0	2.043790466	0	0	0
+Beta-lactamase	0	0	0	0	1.30560929	1.205420916	0	0.811776022	0	0	0
+Bifunctional protein(folD)	0	0	0	0	0	1.514454774	0	0	0	0	0
+branched-chain amino acid aminotransferase	0	0	0	1.199672917	0	0	0	1.85308953	0	0.834357113	0
+butyryl-CoA dehydrogenase	0	0	0	0	0	0	0	0	0	2.117519866	0
+carbon monoxide dehyrogenase 	0	0	0	0	0	0	0	0	1.741198888	0	0
+carbonic anhydrase	0	0	0	0	0	0	0	0.785899028	0.922673568	1.449863925	1.233757363
+catalase	2.454399671	0	0	0	0	0	0	1.903773463	0	0	0
+catalase-peroxidase	0	0	0	0	0	0.411114419	0	2.6642037	1.060131	0	0.691788524
+"catechol 1,2-dioxygenase"	0	0	0	0	0	0	0	2.64020507	0	0	0
+"catechol 2,3-dioxygenase"	1.317206429	0	0	0	0	0	0	2.679602306	0	3.059532369	1.280601132
+chemoreceptor McpA	0	0	0	1.362256221	0	0	0	0	0	0	0
+chemotaxis protein CheA	0	0	0	0	0	0	0	1.869249326	0	2.103783203	0
+chemotaxis protein CheY	0	0	0.51295108	0	0	0	0	0	0	0	0
+chemotaxis response regulator protein-glutamate methylesterase 2	0	0	0	0	0	0	0	0	0	1.48036631	0
+citrate synthase 	0	0	2.19294082	0	1.464385209	0	0	0	0	0	0
+CoB--CoM heterodisulfide reductase subunit C	0	0	0	0	0	0	0	0	0	0	0.87875152
+Coenzyme PQQ synthesis protein(pqqB/C)	0	0	0	0	0	0	0	0	1.344176055	0	0
+Crotonyl-CoA hydratase	0	0	2.221721917	0	0	2.245330028	0	2.416282608	0	0	2.056046844
+cyclohex-1-ene-1-carbonyl-CoA dehydrogenase	0	0	0	0	0	0	0	1.883519486	0	0	0
+cystathionine gamma-synthase	0	0	1.108328194	0	0	0	0	0	0	0	0
+cysteine synthase	0	0	0	0	0	0	0	0	0	0	1.750847675
+cytochrom c (CYC)	0	0	0	0.263636069	0	0	0	2.371865492	0	0	0.827110687
+Cytochrome c family protein(mxaG)	0	0	0	0.263636069	0	0	0	0	2.237345144	1.49037992	0
+D-3-phosphoglycerate dehydrogenase	0	0	0	0	0	0	0	0	2.327087032	0	0
+D-alanine transaminase	1.806505573	0	0	0	0	0	0	0	0	0	0
+D-alanine-D-alanine ligase	0	0	0	0	0	0	0.940566286	2.326806774	0	0	0
+D-amino-acid dehydrogenase	0	0	2.370838642	0	0	2.652067363	0	2.354148792	0	0	0
+diaminobutyrate-2-oxoglutarate transaminase	0	0	0	0	0	0	0	1.730620798	0	0	0
+dibenzothiophene metabolism operon protein DoxH	1.101128176	0	3.157555584	0	0	0	0	0	0.206556044	2.272287284	1.660324644
+dihydrolipoamide dehydrogenase	0	0	1.949053176	0	0.397766256	0	0	1.624931504	0	1.31825121	0
+Dihydropteroate synthase(folP)	0	0	0	0	0	0	0	1.139469776	0.355834496	0	0
+dihydropyrimidinase	0	0	0	0	0	0	0	2.002416627	0	0	0
+Dimethyl-sulfide monooxygenase	3.029207995	0	0	0	1.303152842	2.031202378	0	3.368500725	0	0	2.548643655
+DoeC	0	0	0	0	0	0	0	0.583765368	0	0	0
+enoyl-CoA/Crotonyl-CoA hydratase	0	0	2.221721917	0	0	2.245330028	0	2.416282608	0	0	2.056046844
+F420H2 dehydrogenase	0	0	0	0	0	0	0	0.673757937	0	0	0
+ferredoxin-nitrate reductase/assimilatory nitrate reductase	0	0	0	0.92890769	0	0.988648125	0	0	0	1.901501912	0.474798819
+FO synthase subunit 2	0	0	0	1.527359188	0	0	0	0	0	0	0
+Formamidase	0	0	0	0	1.97050959	2.027084464	0	1.638579102	1.08127528	0	0
+formate dehydrogenase	0	1.941784644	0.707399831	0.479431337	0.272073788	2.401662417	0	3.016404828	2.426514514	1.99048981	2.551983998
+Fumarate hydratase	0	0	0	0	0	2.334045403	0	0.968856375	0	0	0
+fumarylpyruvate hydrolase	0	0	0	0.772761647	0	0	0	0	0	0	0
+glutamate 5-kinase	0	0	3.701615297	0	0	1.863459671	0	0.229169703	0	0	0
+glutamate decarboxylase	1.086431021	0	0	0	0	0	0	0	0	0	0
+glutamate dehydrogenase	0	0	0	0	0	1.172135697	0	0	0	0	0
+glutamate racemase 	0	0	0	0	0	2.080330604	0	1.641979502	0	0	0
+glutamate synthase	0	0	0	0	0	2.232889428	0	0	1.898138049	0	2.359626819
+glutamate-5-semialdehyde dehydrogenase	0	0	1.239249413	0	0	0	0	0	1.449138853	0	0
+glutaminase 	0	0	0.529301998	0	0	0	0	0	0	0	1.948202615
+glutamine synthetase	0	0	0	0	0	0	0	1.767007364	0	0	0
+glutathione peroxidase	0	0	0	0	0	0	0	0	1.218902951	0	0
+glycine hydroxymethyltransferase	0	0	0	0	0	0	0	0	0	1.725682996	0
+gramicidin S synthase 1	0	0	0	0	1.767534317	0	0	0	0	0	0
+gramicidin synthase subunit B	0.739493231	0	0	1.144636468	0.31302311	0	0	2.251832819	0	0	0.438858659
+gramicidin synthase subunit C	0	0	0	0	0	2.37823251	1.190359716	2.126920022	1.516416373	0	2.134116519
+gramicidin synthase subunit D	0	0	0	0.306639441	0.775756038	2.851958772	0	1.01978073	0	1.497385833	2.570789204
+GTP cyclohydrolase(folE)	0	0	0	0	0	0.874887511	1.886564041	0	2.322304077	0	0
+histidinol-phosphate aminotransferase	0	0	0.412964272	0	0	0	0	1.333970933	2.353223576	0	0
+"homogentisate 1,2-dioxygenase"	0	0	0	0	1.906738974	0	0	3.040970425	1.169909442	0	0
+homoserine O-acetyltransferase	0	0	0	1.569666462	0	2.724925187	0	1.335959106	0	0.202760687	0
+homoserine/homoserine lactone efflux protein	0	0	0	0	0	2.231793152	0	0	0	1.130301597	0.67651071
+host factor-I protein	0	0	0	0	0	0	0	0	0	2.652474552	0
+HTH-type transcriptional regulator (TrpI)	0	0	0	2.266922818	0	0.539703239	0	0	1.116342039	0	0
+Hydrogenase-5(hyd)	0	0	0	0	0	0	0	0	2.503180336	0	0
+Hydroxylamine reductase(hcp)	0	0	0	0	0	0	0	0	0	0	1.624776971
+hydroxypyruvate reductase	0	0	0	1.349238663	0	0	0	0	0	0	0
+indole-3-glycerol phosphate synthase	0	0	0.567849451	0	0	0	0	0	0	0	0
+isocitrate dyhydrogenase (used in TCA and rTCA)	0	0	0	0	0	2.363446503	0	0	0	3.071762376	0.64601141
+K+-transporting ATPase ATPase A chain (KdpA)	0	0	0	0	0	0	0	1.409781009	0	0	0
+K+-transporting ATPase ATPase B chain (KdpB)	0	0	0	0	0	0	0	0	0.510410948	1.143358351	0
+K+-transporting ATPase ATPase C chain (KdpC)	0	0	0	0	0	1.860721215	0	2.353681622	0	0	0
+ketol-acid reductoisomerase	1.600907583	0	0	0	1.04719696	0	0	0	0.627365857	0	0
+kynureninase	0	0	0	0	0.823930455	0	0	0	0	0	0.703635238
+L-serine dehydratase	0	0	0	0	0	0	0	0	0.759290033	0	0
+Malate dehydrogenase	0.775537635	0	2.738403954	0.361727836	0	0	0.740362689	2.44712856	2.379646292	0.486855355	2.221873069
+malonate-semialdehyde dehydrogenase	1.124732398	0	0	0.101059355	0	0	0	2.308429943	1.125708926	0.64738297	0
+Membrane-bound [NiFe] hydrogenase-1(hya)	0	0	2.677382448	2.562512931	0.428782511	0	2.770983752	0.937367418	0	2.914980113	1.382053082
+Methanol dehydrogenase(ygcG)	2.733344146	0	0	0	0	1.518369151	0	0	0	0	0
+methyl-accepting chemotaxis protein	0	0	1.264676182	0	1.12538366	1.184776578	0	0	0.343605508	0.797267541	0
+methyl-accepting chemotaxis protein 4	0	0	0	0	0	1.938189376	0	0	0	0	0
+methyl-accepting chemotaxis protein McpA	0	0	0	0	0	0	0	1.430719888	0	0	0
+methyl-accepting chemotaxis protein McpB	0	0	0	0	0	0	0	0.351603072	0	0	0
+methyl-accepting chemotaxis protein McpG	0	0	0	1.477367285	0	0	0	0	0	0	0
+methyl-accepting chemotaxis protein McpP	0	0	0	0	0	2.032550267	0	0	0	0	0
+methyl-accepting chemotaxis protein McpQ	0	0	0	0	0	0	0	0	0	1.915046134	0
+methyl-accepting chemotaxis protein McpS	0	0	0	0	1.452093249	0	0	0	0	0	0
+methyl-accepting chemotaxis protein McpU	0	0	0	0	0	0	0	2.809995137	0	0	0
+methyl-accepting chemotaxis protein NahY	0	0	0	0	0	0	0	0	0.57599562	0	0
+methyl-accepting chemotaxis protein PctA	0	0	0	0	0.361538971	3.427230261	0	2.932633044	0	0	0
+methyl-accepting chemotaxis protein TlpA	1.369790824	0	0	0	0	0	0	0	0	0	0
+methylenetetrahydrofolate dehydrogenase	3.885660147	0	3.119265789	0.158663981	3.345380985	2.48191107	0	0	0.831485839	2.620042312	2.477575579
+methylmalonate-semialdehyde dehydrogenase	1.124732398	0	0	0.101059355	0	0	0	2.308429943	1.125708926	0.64738297	0
+Methylmalonyl-CoA mutase	0	0	1.099749681	0	0	0	0.838786145	0	0	1.170994702	1.558636582
+muconate cycloisomerase	0	0	0	0	0	0	0	0	0	0	1.090963077
+NADPH:quinone reductase(qor)	1.575222495	0	0.754577656	2.411343555	0	0	0	0	0	0.547159121	1.894088885
+"naphthalene 1,2-dioxygenase subunit alpha"	0	0	0	0.932524497	0	0	0	0	0	0	0
+nitrate reductase/nitrite oxidoreductase(narG/narH/narZ)	0	0	0	0	0	0	0	0	0.578868329	1.342955352	0
+nitrate/nitrite transporter	0	0	0	0	2.842078527	0	0.507855872	0	0.34869419	0	1.569689858
+Nitric oxide reductase(nor)	0	0	2.259832699	0	0	0	0	2.01841337	0	0	0
+nitrilase	0	0	1.531351165	0	0	2.24137213	0	0	0	0.323664536	0
+Nitrite reductase (nirB)	0	0	0	2.804774388	0	1.681928327	0	2.818016616	0	0	0.670338641
+Nitrite reductase(NO-forming)(nirS)	0	0	0	0	0	0	0	0	0	0.5594278	0
+nitrogenase iron prortein (nifH)	0	0	0	2.174248843	0	0	0	0	0	0	0
+O-acetylhomoserine/O-acetylserine sulfhydrylase	0	0	0	2.901481207	0	0	0	0	0	0	0
+O-succinylhomoserine sulfhydrylase	0	0	0	0	0	3.037347999	0	2.672746966	0	0	0
+oligopeptide transport ATP-binding protein AppD	0	0	0	0	0	0	0	0	0	0	2.054295068
+oligopeptide transport ATP-binding protein Opp	0.990693961	0	0	0	2.520245031	0	0	1.466200102	1.222300181	0.744136452	0.932727367
+oligopeptide transport system permease protein AppC	1.329784199	0	0.648360011	0	0.60184279	0	0	0	0	0	0
+Other uptake hydrogenase	1.192539577	0	0	0	0	0	0	0.407560849	0	1.038182866	0.339848783
+"oxepin-CoA hydrolase / 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase"	0.756331767	0	0	0	0	0	0	0	0	0	0
+pantothenate synthetase	0	0	0	0	0	0	0	0	0	0	2.151348396
+PHA specific acetoacetyl-CoA reductase (phaB)	0	0	0	0	0	0	0	0	0	0.958945932	0
+PHA synthase (phaC)	1.904174368	0	0	0	0	0	0	1.183696809	0	1.633165354	0
+phenol hydroxylase P0 protein	0	0	0	0	0	0	0.357744325	0	1.010087847	1.752286668	1.223755454
+phenylacetaldehyde dehydrogenase	0.44357588	0	0.687261346	0	1.177824972	1.896438027	0	1.803525396	0	1.916153787	0
+phenylacetate-coenzyme A ligase	0	0	0	0	0	0	0	1.542451947	0	0	0
+phenylalanine dehydrogenase	1.566519983	0	0	0	0	0	0	0	0	0	0
+Phosphate acetyltransferase	0	0	0	0	0	1.395466184	0	0	0	0.835500328	0.668758542
+phosphate regulon transcriptional regulatory protein PhoB	0	0	0	0	0	0	0	0.690727544	1.603339274	0	0
+Phosphoadenosine phosphosulfate reductase	0	0	0	0	0	0	0	2.326784264	0	0	0
+Phosphoenolpyruvate carboxylase	0	0	0	0	0	0	0	2.553446086	2.785902583	0	0
+phosphoribosylanthranilate isomerase 	0	0	0	0	0	1.506126043	0	0	0	0	0
+phosphoserine aminotransferase 	0	0	0	0	0.688597775	0	0	0	0	0	0
+phosphoserine phosphatase	0.466274322	0	2.008233847	0	0	0	0	1.662672853	2.554237111	1.519434195	0.229169703
+phosphosulfolactate phosphatase	0	0	0	0	0	0	0	0	0	1.616391483	0
+"phthalate 4,5-dioxygenase oxygenase"	0	0	0	0	2.925391	0	0	0	0.260309946	0	0
+phthalate transporter	0	0	0	0	0	0	0	0	0	1.181328987	0
+phzR	0	0	0	0	0	3.749916333	0	0	0	0	0
+primary amine oxidase	0	0	0	0	0	0	0	0	0	0.457427693	0
+propionyl-CoA carboxylase	0	0	0	0	0	1.860721215	0	1.924098292	0	0	1.776359715
+"protocatechuate 4,5-dioxygenase alpha chain"	1.926290987	0	0	0	0	0	0	0	0	0	0.237794993
+pyrroline-5-carboxylate reductase	0	0	0	0.136720567	0	0.140508043	0	2.475031622	0	0	2.318793505
+Pyruvate synthase	0	0	0	0	1.102982231	0	0	0	0	2.183491918	0
+Pyruvate:water dikinase	0.623352682	0	0	0	0	0	0	2.321287665	0	0	0
+quinate dehydrogenase	0.786254396	0	0	0	0	0	0	0	0	0	0
+redox sensitive HTH-type transcriptional activator SoxR	0	0	0	0	0	0	0	0	2.102605194	0	0
+Sensor protein KdpD	0	0	0	0	0	0	0	0	0.753123245	0	1.273603077
+serine O-acetyltransferase	0.476251796	0	0	0	0	0	0	1.891582056	0	0.719828286	0
+shikimate dehydrogenase	0	0	1.048480647	0	0	1.152135397	0	0	0	0	0
+spermidine synthase	0	0	0.809963522	0	0	2.018621453	0	0	0	0	0
+Succinate dehydrogenase/ fumarate reductase	0	0	1.698265877	0	2.502953963	0	0	0	2.181732143	0	0
+Succinyl-CoA synthetase 	2.11229995	0	0	0	0.64738297	0	2.060931919	0.856003454	0.753659647	0	1.63496067
+succinyl-CoA: (S)-malate CoA-transferase	0	0	0	0	0	0	0	2.098079295	0	0	0
+Succinyl-CoA:coenzyme A transferase	0.195899652	0	0	0	0	0	0	1.481958316	0	0	0
+Sulfate adenylyltransferase(cysD)	0	0	0	0	0	0	0	2.109403039	0	1.467548913	1.260453018
+Sulfur-oxidizing protein (Sox)	0	0	0	0	0	0	0	0	2.102605194	0	0
+Tetrahydromethanopterin S-methyltransferase	0	0	0	0	0	0	0	0.721810615	0	0	0
+thioredoxin reductase	1.332822086	0	0.529301998	0	0	0	0	0	2.513932398	0	0
+thiosulfate sulfurtransferase	0	0	1.749349761	0	0	0	1.242516582	0	0	0	0
+threonine aldolase	0	0	0	0	1.739667262	0	0	0	0	0	0.844290743
+threonine synthase	0.866877814	0	0	0	0	0	0	0	0.215108581	0.935608019	1.973511157
+"trans-2,3-dihydro-3-hydroxyanthranilate isomerase"	0	0	0	0	0.931254406	0	0	0.475089803	0	0	0
+transcirptional regulator of TrpF	0	0	0	0	1.17283636	0	0	0	0	0	0
+transcrptional regulators (IcIR family)	0	1.69189448	0	0	0	0	0	0	0	0	0
+Trk system potassium uptake protein TrkH	0	0	0	0	0	0	0	1.106632789	0	0.766412847	0
+Trk system potassium uptake protein TrkI	0	0	0.664359875	0	0.466422722	2.604046681	0	0	0	0	0
+"tryptophan 2,3-dioxygenase"	2.72916641	0	0	0	0	0	0	0	0	0	0
+tryptophan synthase alpha chain	0	0	1.196397284	0	0	0	0	0	0	0.712902125	0
+tyrocidine synthase 1	0	0	0	0	0	0	0	1.480524337	0	0	0
+UDP-N-acetylmuramate--alanine ligase	0	0	0	0	0	0	0	0.672744198	0	0	0
+UDP-N-acetylmuramoylalanine--D-glutamate ligase 	0	0	0	0	0	0	0	0.672744198	0	0	1.967042253
+valine-pyruvate aminotransferase	0	0	0	0	1.106394903	0	0	0	0	0	0
