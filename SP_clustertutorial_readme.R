@@ -144,10 +144,10 @@ plot(within_seq_means,within_seq_vars,log='xy',
      main='Heteroskedastic Data',
      xlab='Mean # Counts',
      ylab='Var # Counts')
-transformed_counts<-DESeq2::varianceStabilizingTransformation(as.matrix(seq_counts))
 
 seq_counts[seq_counts == 0] <- 1
 View(seq_counts)
+transformed_counts<-DESeq2::varianceStabilizingTransformation(as.matrix(seq_counts))
 
 within_trans_means<-apply(transformed_counts,1,mean)
 within_trans_vars<-apply(transformed_counts,1,var)
@@ -239,21 +239,22 @@ str(tax_key)
 tax_key$otu_id <- as.factor(tax_key$otu_id)
 str(tax_key)
 head(tax_bycluster[1:2,])
+write.table(tax_bycluster, file = "SP2018_tax_bycluster.tsv", sep = "\t")
 tax_bycluster_sum<-tax_bycluster %>%
-  group_by(cluster, level_0) %>%
+  group_by(cluster, Level2) %>%
   summarise(richness =  n()) %>% #Get richness information
-  group_by(level_0) %>%
+  group_by(Level2) %>%
   mutate(n_per_tax=sum(richness)) %>% #Figure out total number of OTUs assigned to each taxon
   as.data.frame
-tax_bycluster_sum$level_0[which(tax_bycluster_sum$level_0=='Opisthokonts')]<-'Opisthokont' # Cleaning this up
+tax_bycluster_sum$Level2[which(tax_bycluster_sum$Level2=='Opisthokonts')]<-'Opisthokont' # Cleaning this up
 head(tax_bycluster_sum)
-tax_color<-c("#67000d","#e31a1c","#dd3497","#fcbba1","#fed976","#fc8d59","#a63603","#addd8e","#7f2704","#238b45","#a1d99b","#081d58","#1f78b4","#a6cee3","#8c6bb1","#9e9ac8","#984ea3","#081d58","#662506","#ffffff","#969696","#525252","#000000")
-ggplot(tax_bycluster_sum, aes(x=cluster, y=richness, fill=level_0))+
+tax_color<-c("#67000d","#e31a1c","#dd3497","#fcbba1","#fed976","#fc8d59","#a63603","#addd8e","#7f2704","#238b45","#a1d99b","#081d58","#1f78b4","#a6cee3","#8c6bb1","#9e9ac8","#984ea3","#081d58","#662506","#ffffff","#969696","#525252","#000000", "#1B9E77", "#D95F02")
+ggplot(tax_bycluster_sum, aes(x=cluster, y=richness, fill = Level2))+
   geom_bar(color="black", stat="identity")+
   coord_flip()+
-  scale_fill_brewer(palette='Set3')+
+  scale_fill_manual(values = getPalette(colourCount))+
   theme_minimal()+
-  scale_x_continuous(breaks=1:4,labels=as.character(1:4),name='Cluster #')+
+  scale_x_continuous(breaks=1:5,labels=as.character(1:5),name='Cluster #')+
   scale_y_continuous(name='# Species')+
   theme(legend.position='bottom',text=element_text(size=12))
 medoid_dyn_long<-as.data.frame(t(medoid_dynamics)) %>%
