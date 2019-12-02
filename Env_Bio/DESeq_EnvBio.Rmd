@@ -1,0 +1,40 @@
+---
+title: "DESeq for Env Bio"
+author: "TRS"
+date: "12/2/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+setwd("/Users/taylorsehein/github/WHOI_repo/Env_Bio/")
+library(DESeq2)
+
+##Read in count table
+counts = as.matrix(read.csv("read_count_table_96hr_lysed_host_3.txt", sep="\t", row.names="Contig"))
+
+##Read in treatment information for samples
+treatment = read.csv("Env_bio_Lu_Lysed_host_96hr_treat.txt", sep = "\t", header = T)
+
+##Create DESeq data matrix
+dds <- DESeqDataSetFromMatrix(countData = counts, colData = treatment, design= ~ Treatment)
+
+##Run DESeq with standard settings
+dds_run <- DESeq(dds)
+
+##Print result names
+resultsNames(dds_run)
+
+##Generate result output
+res <- results(dds_run, name="Treatment_Lysed_host_vs_Control")
+
+##Write output table that can be opened on desktop
+write.table(res, file = "Lu_96hr_lysed_host_assem3.tsv", sep = "\t")
+```
+
+Repeat for each time point(2) and treatment vs. control group (3).
